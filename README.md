@@ -19,12 +19,41 @@
 
 1. Стандартные секции:
 
-     .default-section    
-     .small-section
+          .default-section    
+          .small-section
     
- 2. Ромб-иконки:
+2. Ромб-иконки:
       
-      .rhomb-icon
-      .rhomb-icon.large-icon
+          .rhomb-icon
+          .rhomb-icon.large-icon
       
-3.
+3. Стилизация ромб-иконок:
+          
+          .rhomb-icon.black-icon
+          .rhomb-icon.white-icon
+          .rhomb-icon.transparent-icon
+          
+4. Заголовки:
+
+          .title
+          .title.title-small
+          .title.light
+          .title.less-margin
+          
+5. Текст: 
+
+          .default-text 
+          .inform-text
+          
+6. Кнопки: 
+
+          .btn
+          .btn.btn-small
+          .btn.btn-default
+          .btn.btn-grey
+          .btn.btn-black
+          
+7. Формы:
+
+          .form-control
+
