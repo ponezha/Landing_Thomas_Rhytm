@@ -17,3 +17,14 @@
 
 #### _Компоненты_
 
+1. Стандартные секции:
+
+     .default-section    
+     .small-section
+    
+ 2. Ромб-иконки:
+      
+      .rhomb-icon
+      .rhomb-icon.large-icon
+      
+3.
