@@ -256,6 +256,9 @@ textarea.form-control{
 .logo{
 	float: left;
 }
+.header .collapse{
+	padding: 0;
+}
 .header-nav{
 	float: right;
 	font-size: 11px;
@@ -301,6 +304,11 @@ textarea.form-control{
 		margin-top: 10px;
 	}
 }
+@media (max-width: 599px){
+	.header .navbar-toggle{
+		margin-top: 3px;
+	}
+}
 /* ===== HEADER END ===== */
 
 /* ===== INNER ===== */
@@ -308,6 +316,7 @@ textarea.form-control{
 	height: 100vh;
 	background: url(../img/inner-bg.jpg) no-repeat center / cover;	
 	text-align: center;
+	position: relative;
 }
 .inner::before{
 	content: '';
@@ -373,13 +382,24 @@ textarea.form-control{
 		padding: 150px 0;
 	}
 	.inner-content h1{
-		letter-spacing: .2em;
+		letter-spacing: .5em;
 		text-indent: .2em;
+	}
+}
+@media (max-width: 479px){
+	.inner-content h1{
+		letter-spacing: 0.2em;
+	}
+	.inner-content span{
+		line-height: 30px;
 	}
 }
 /* ===== INNER END ===== */
 
 /* ===== ABOUT STUDIO START ===== */
+.about-studio{
+	border-bottom: 1px solid #ececec;
+}
 .about-studio .about-us-text{
 	margin-bottom: 100px;
 }
@@ -518,7 +538,7 @@ textarea.form-control{
 		width: 50%;
 	}
 }
-@media (max-width: 599px){
+@media (max-width: 479px){
 	.services-tab .nav-tabs > li{
 		width: 100%;
 	}
@@ -731,6 +751,7 @@ textarea.form-control{
 	float: right;
 	font-size: 11px;
 	line-height: 2.4em;
+	letter-spacing: 0.4em;
 	color: rgba(17, 17, 17, .5);
 }
 .latest-news .title .title-link:hover{
@@ -766,11 +787,11 @@ textarea.form-control{
 	.latest-news .row > div + div{
 		margin-top: 30px;
 	}
-	@media (max-width: 599px){
-		.latest-news .title .title-link{
-			float: left;
-			margin-top: 5px;
-		}
+}
+@media (max-width: 599px){
+	.latest-news .title .title-link{
+		float: left;
+		margin-top: 5px;
 	}
 }
 /* ===== LATEST NEWS END=====*/
